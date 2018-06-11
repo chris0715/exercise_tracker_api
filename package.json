@@ -1,0 +1,29 @@
+{
+  "name": "exercise_tracker_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db": "node seeders/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris0715/exercise_tracker_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris0715/exercise_tracker_api/issues"
+  },
+  "homepage": "https://github.com/chris0715/exercise_tracker_api#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
